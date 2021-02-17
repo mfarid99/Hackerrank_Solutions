@@ -16,3 +16,20 @@ function compareTriplets(a, b) {
   }
   return scores
 }
+
+//A very big sum
+
+function aVeryBigSum(ar) {
+  return ar.reduce((a, b) => a + b)
+}
+
+/* Many tall buildings, including hotels, skip the number 13 when numbering floors -- often going from floor 12 to floor 14. It is thought that the number 13 is unlucky! Write a program that will number 15 rooms starting from 1, skipping the number 13. Here is the solution */
+
+var countOfRooms = 15
+for (i = 1; i < 17; i++) {
+  if (i == 13) {
+    continue
+  }
+  console.log(i)
+}
+//output 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16

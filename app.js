@@ -33,3 +33,15 @@ for (i = 1; i < 17; i++) {
   console.log(i)
 }
 //output 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16
+
+//Function to add sum of numbers
+
+const addNum = (n) => {
+  let total = 0
+  for (let i = 0; i <= n; i++) {
+    total += i
+  }
+  return total
+}
+
+console.log(addNum(6))
